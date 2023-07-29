@@ -2,7 +2,7 @@
 This is a semi-prolific project for the use of a WAF service (Imperva)
 
 ---------------------------------------------------------------------------------------------------------
-## **MUST DISABLE ADBLOCKER FOR THE WEBSITE TO RUN NORMALLY - THIS IS A CLIENT-SIDED APPLICATION**
+## MUST DISABLE ADBLOCKER FOR THE WEBSITE TO RUN NORMALLY - THIS IS A CLIENT-SIDED APPLICATION
 ---------------------------------------------------------------------------------------------------------
 
 ## How to use?
