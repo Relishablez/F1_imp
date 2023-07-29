@@ -6,7 +6,7 @@ This is a semi-prolific project for the use of a WAF service (Imperva) harnessin
 - Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
 
-❓## How to use? 
+## ❓How to use? 
 _To use the application on Local Host or Web:_ 
 
 **1. Web:** 
