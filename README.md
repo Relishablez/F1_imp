@@ -2,7 +2,8 @@
 This is a semi-prolific project for the use of a WAF service (Imperva)
 
 ---------------------------------------------------------------------------------------------------------
-## MUST DISABLE ADBLOCKER FOR THE WEBSITE TO RUN NORMALLY - THIS IS A CLIENT-SIDED APPLICATION
+MUST DISABLE ADBLOCKER FOR THE WEBSITE TO RUN NORMALLY
+THIS IS A CLIENT-SIDED APPLICATION
 ---------------------------------------------------------------------------------------------------------
 
 ## How to use?
@@ -33,5 +34,6 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 --->>> Please note: the ipinfo.io API requires a token to function properly. The one included in this is a free tier placeholder and may need to be replaced with your own.
 
 ---------------------------------------------------------------------------------------------------------
-## **MUST DISABLE ADBLOCKER FOR THE WEBSITE TO RUN NORMALLY - THIS IS A CLIENT-SIDED APPLICATION**
+MUST DISABLE ADBLOCKER FOR THE WEBSITE TO RUN NORMALLY
+THIS IS A CLIENT-SIDED APPLICATION
 ---------------------------------------------------------------------------------------------------------
