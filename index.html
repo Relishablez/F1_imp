@@ -293,7 +293,7 @@ We can confirm the IP provided is currently being blocked due to the use of a Mo
 
 <div id="VPN">
 <p id="savedText6"></p>
-Is <strong>NOT USING</strong> technology to mask location.
+Is <strong>IS USING</strong> technology to mask location.
 </div>
 <form>
 <input id="mo6" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('VPN'); myFunction6(); myOpen();return false;" />
@@ -306,7 +306,7 @@ Is <strong>NOT USING</strong> technology to mask location.
 
 <div id="NVPN">
 <p id="savedText7"></p>
-<strong>IS USING </strong> a VPN/Proxy.
+<strong>NOT USING</strong> a VPN/Proxy.
 </div>
 <form>
 <input id="mo7" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('NVPN'); myFunction7(); myOpen();return false;" />
@@ -428,7 +428,6 @@ function myDark() {
 }
 </script>
 
-<!-- integrate with Teams
 
 <!-- <script>
 function myOpen() {
@@ -437,6 +436,36 @@ function myOpen() {
 </script> -->
 
 
+
+<!--<script>
+document.getElementById('timer').innerHTML =
+  05 + ":" + 60;
+startTimer();
+
+
+function startTimer() {
+  var presentTime = document.getElementById('timer').innerHTML;
+  var timeArray = presentTime.split(/[:]+/);
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  if(s==59){m=m-1}
+  if(m<0){
+    return
+  }
+  
+  document.getElementById('timer').innerHTML =
+    m + ":" + s;
+  console.log(m)
+  setTimeout(startTimer, 1000);
+  
+}
+
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+  if (sec < 0) {sec = "59"};
+  return sec;
+}
+</script> -->
 
 
 
