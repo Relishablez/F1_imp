@@ -1,0 +1,473 @@
+
+<html>
+
+<head>
+<meta charset = "utf-8" />
+<!-- <meta http-equiv="refresh" content="300"> -->
+<title>😎Mo Imp</title>
+</head>
+
+<style>
+html, body {
+    height: 100%;
+}
+
+html {
+    display: auto ;
+    margin: auto;
+}
+
+
+
+body {
+  padding: 10px;
+  background-color: #4c8383;
+  color: mintcream;
+    display: table-cell;
+    vertical-align: middle;
+  font-family: verdana;
+
+
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+
+  
+}
+
+input[type=text], select {
+  width: 20%;
+  padding: 5px 5px;
+  margin: 0px 0px;
+  display: inline-block;
+  border: 0.5px solid #000000;
+  border-radius: 0.1px;  
+  box-sizing: border-box;
+  
+}
+
+input[type=button] {
+  width:30%;
+  background-color: #0e4171;
+  color: yellow;
+  padding: 3px 3px;
+  margin: 1px 1px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 0em;
+}
+
+input[type=button]:hover {
+  background-color: #c7222d;
+}
+
+div {
+  border-radius: 5px;
+  border-style: double;
+  border-color: #603f77;
+  padding: 0.01em;
+}
+
+p {
+  margin: 3;
+  padding:5.5;
+  line-height: 0px;
+}
+h1 { 
+  display: block;
+  font-size: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+</style>
+
+<!-- JAVASCRIPT FOR COLOURS AND FONT SIZE -->
+
+<script>
+  var fontSize = 14;
+
+document.getElementById('increase-font-size').onclick = function() {
+  fontSize += 1;
+  document.body.style.fontSize = fontSize + 'px';
+};
+
+document.getElementById('decrease-font-size').onclick = function() {
+  fontSize -= 1;
+  document.body.style.fontSize = fontSize + 'px';
+};
+
+
+</script>
+
+<script>
+  function changeColor() {
+    var colorPicker = document.getElementById("colorPicker");
+    var newColor = colorPicker.value;
+    document.body.style.backgroundColor = newColor;
+  }
+
+  function setBlackBackground() {
+    document.body.style.backgroundColor = "#000000";
+  }
+
+
+  function resetBackground() {
+    document.body.style.backgroundColor = "#4c8383";
+    document.getElementById("colorPicker").value = "#4c8383";
+  }
+
+  function increaseFontSize() {
+  fontSize += 2;
+  document.body.style.fontSize = fontSize + 'px';
+}
+
+function decreaseFontSize() {
+  fontSize -= 2;
+  document.body.style.fontSize = fontSize + 'px';
+}
+
+</script>
+
+<body>
+  <input type="color" id="colorPicker" value="#4c8383">
+  <button onclick="changeColor()">Change Background Color</button>
+  <button onclick="setBlackBackground()">Dark Mode</button>
+  <button onclick="resetBackground()">Reset Background</button>
+  <button id="increase-font-size" onclick="increaseFontSize()">Increase Font Size</button>
+  <button id="decrease-font-size" onclick="decreaseFontSize()">Decrease Font Size</button>
+
+</body>
+
+
+<!-- IP field and generating template / reloading page -->
+<p>
+<input type="text" id="input" placeholder="IP: " pattern="[0-255]{3}.[0-255]{3}.[0-255]{3}.[0-255]{3}"/>
+<input type="button"  onclick="save()" value=" Generate Templates" />
+<input type="button" value="Reload Page" onClick="location.reload();">
+</p>
+<hr>
+
+
+<!-- <p><span id="enteredIP"></span></p> -->
+
+<!-- query ip here -->
+
+<h1>IPInfo Query</h1>
+<form id="ipForm">
+  <label for="ipAddress">Enter the IP address:</label>
+  <input type="text" id="ipAddress" required>
+  <button type="submit">Query</button>
+</form>
+<pre id="result"></pre>
+
+<script>
+  async function fetchData(ipAddress) {
+    const request = 
+      await fetch(`https://ipinfo.io/${ipAddress}/json?token=bb0d611de622be`, { // my API key here  from ipinfo.io
+        method: 'GET',
+        headers: {
+          'Access-Control-Allow-Origin': '*'
+        },
+      });
+    const data = await request.json();
+    document.getElementById("result").textContent = JSON.stringify(data, null, 2);
+  }
+
+  document.getElementById("ipForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const ipAddress = document.getElementById("ipAddress").value;
+    fetchData(ipAddress);
+  });
+</script>
+
+<!-- Issue Being Investigated DIV finishing mo dey-->
+
+<b>📣Investigating - response soon <br></b>
+
+<div id="COMMS" >
+<p id="savedText0"></p>
+
+Thank you for your communication. We will investigate the IP provided on the Imperva portal and report back
+</div>
+<form>
+<input id="mo0" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('COMMS'); myFunction0(); myOpen(); return false;" />
+</form>
+<hr>
+
+
+<b>❌Traffic NOT seen <br></b>
+
+<div id="TNS" >
+<p id="savedText1"></p>
+
+We can confirm that no traffic is seen on the Imperva portal for the IP provided.
+</div>
+<form>
+<input id="mo1" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('TNS'); myFunction1(); myOpen(); return false;" />
+</form>
+<hr>
+
+
+<!-- Traffic Not seen DIV finishing -->
+
+<b>✅Traffic IS seen + allowed <br></b>
+
+<div id="TIS">
+<p id="savedText2"></p>
+Browser: Chrome Safari Firefox Edge F1TV-iOS<br>
+Country:<br><br>
+
+We can confirm that traffic for the IP provided is seen on the Imperva portal and is allowed.<br>
+</div>
+<form>
+<input id="mo2" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('TIS'); myFunction2(); myOpen(); return false;" />
+</form>
+<hr>
+
+
+<!--  DIV finishing -->
+
+<b>⚡Force Identity OR Invalid Token -> JavaScript/browser cookie issues <br></b>
+
+<div id="BDTF">
+<p id="savedText3"></p>
+Browser: Chrome Safari Firefox Edge F1TV-iOS<br>
+Country:<br><br>
+
+We can confirm that traffic for the IP provided is currently blocked due to a JavaScript or Browser cookie issue.
+</div>
+<form>
+<input id="mo3" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('BDTF'); myFunction3(); myOpen();return false;" />
+</form>
+<hr>
+
+<!--  DIV finishing -->
+
+<b>❗KVDC - Known Violator DC -> VPN/Hosted envs  <br></b>
+
+<div id="KVDC">
+<p id="savedText4"></p>
+Browser: Chrome Safari Firefox Edge F1TV-iOS<br>
+Country:<br>
+Geo Org:<br><br>
+
+We can confirm the IP provided is currently being blocked due to a VPN or a hosted environment.<br>
+</div>
+<form>
+<input id="mo4" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('KVDC'); myFunction4(); myOpen();return false;" />
+</form>
+<hr>
+
+<!--  DIV finishing -->
+
+<b>📱📞Mobile SDK <br></b>
+
+<div id="SDK">
+<p id="savedText5"></p>
+Browser: Chrome Safari Firefox Edge F1TV-iOS<br>
+Country:<br>
+<br>
+We can confirm the IP provided is currently being blocked due to the use of a Mobile SDK.
+</div>
+<form>
+<input id="mo5" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('SDK'); myFunction5(); myOpen();return false;" />
+</form>
+
+
+
+<!--  DIV finishing -->
+
+
+<b>🔒✅ VPN = YES <br></b>
+
+<div id="VPN">
+<p id="savedText6"></p>
+Is <strong>NOT USING</strong> technology to mask location.
+</div>
+<form>
+<input id="mo6" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('VPN'); myFunction6(); myOpen();return false;" />
+</form>
+
+<!--  DIV finishing -->
+
+
+<b>🔓❌ VPN = NO <br></b>
+
+<div id="NVPN">
+<p id="savedText7"></p>
+<strong>IS USING </strong> a VPN/Proxy.
+</div>
+<form>
+<input id="mo7" type="button" value=" COPY TO CLIPBOARD" onclick="CopyToClipboard('NVPN'); myFunction7(); myOpen();return false;" />
+</form>
+
+<script>
+
+
+function CopyToClipboard(containerid) {
+  if (document.selection) { 
+    var range = document.body.createTextRange();
+    range.moveToElementText(document.getElementById(containerid));
+    range.select().createTextRange();
+    document.execCommand("copy"); 
+
+  } else if (window.getSelection) {
+    var range = document.createRange();
+    range.selectNode(document.getElementById(containerid));
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    
+  }
+
+  var clipboardText = document.getElementById(containerid).textContent.trim();
+  navigator.clipboard.writeText(clipboardText);
+}
+
+
+</script>
+
+
+
+<script>
+
+var storedItem = localStorage.getItem("storedItem");
+
+function save() {
+
+var Item = document.getElementById("input").value.trim();
+localStorage.setItem("storedItem", Item);
+
+for (var i = 0; i <= 10; i++) {
+  document.getElementById("savedText" + i).innerHTML = "IP: " + Item;
+}
+
+
+var input = document.getElementById("input").value;
+  var savedIP = document.getElementById("savedIP");
+  savedIP.innerHTML = input;
+
+}
+
+
+// GET FUNCTION------
+  
+function get(){
+localStorage.getItem("storedItem");
+document.getElementById("openedText").innerHTML = storedItem + " OPENED ";
+
+}
+</script>
+
+
+<script>
+function myFunction0() {
+  document.getElementById("mo0").value= "COPIED";
+}
+</script>
+
+<script>
+function myFunction1() {
+  document.getElementById("mo1").value= "COPIED";
+}
+</script> 
+
+<script>
+function myFunction2() {
+  document.getElementById("mo2").value= "COPIED";
+}
+</script> 
+
+<script>
+function myFunction3() {
+  document.getElementById("mo3").value= "COPIED";
+}
+</script> 
+
+<script>
+function myFunction4() {
+  document.getElementById("mo4").value= "COPIED";
+}
+</script> 
+
+<script>
+function myFunction5() {
+  document.getElementById("mo5").value= "COPIED";
+}
+</script> 
+
+<script>
+function myFunction6() {
+  document.getElementById("mo6").value= "COPIED";
+}
+</script> 
+
+<script>
+function myFunction7() {
+  document.getElementById("mo7").value= "COPIED";
+}
+</script> 
+
+
+
+
+<script>
+function myDark() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+<!-- <script>
+function myOpen() {
+  window.open("https://teams.microsoft.com/_?tenantId");
+}
+</script> -->
+
+
+
+<!--<script>
+document.getElementById('timer').innerHTML =
+  05 + ":" + 60;
+startTimer();
+
+
+function startTimer() {
+  var presentTime = document.getElementById('timer').innerHTML;
+  var timeArray = presentTime.split(/[:]+/);
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  if(s==59){m=m-1}
+  if(m<0){
+    return
+  }
+  
+  document.getElementById('timer').innerHTML =
+    m + ":" + s;
+  console.log(m)
+  setTimeout(startTimer, 1000);
+  
+}
+
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+  if (sec < 0) {sec = "59"};
+  return sec;
+}
+</script> -->
+
+
+
+</html>
+
+
+
+
