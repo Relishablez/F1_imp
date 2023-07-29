@@ -1,9 +1,9 @@
 # F1_imp - PROXY + VPN CHECKING 🏎️
-This is a semi-prolific project for the use of a WAF service (Imperva) harnessing the ipinfo.io API
+This is a semi-prolific project for the use of a WAF service (Imperva) harnessing the ipinfo.io API swiftly accessible via: https://relishablez.github.io/F1_imp/
 
 ---------------------------------------------------------------------------------------------------------
 ❗❗❗MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY❗❗❗
-- Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
+- Must whitelist the website/local HTML file in the browser 
 ---------------------------------------------------------------------------------------------------------
 
 ## 🤔❓How to use? 
