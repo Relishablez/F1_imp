@@ -3,11 +3,11 @@ This is a semi-prolific project for the use of a WAF service (Imperva)
 
 ---------------------------------------------------------------------------------------------------------
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
-- can whitelist the website: https://relishablez.github.io/F1_imp/
+- Must whitelist the website: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
 
 ## How to use?
-**_## To use the application, follow either:_**
+**_ To use the application, follow either:_**
 ### Local host OR on the web: 
 **1. Local Host:** Simply clone the repository (https://github.com/Relishablez/F1_imp/blob/main/F1_v4.3.1_Mo_INPUT_API_KEY.html) and open the HTML file in a browser replacing "API_KEY_HERE" with your API key, obtainable via: https://ipinfo.io/account/token (must make an account first. 50k requests per month, free tier).
 
