@@ -29,10 +29,15 @@ Moreover, this application also generates various communication templates based 
 
 ---------------------------------------------------------------------------------------------------------
 ## 🤩Additional features of the application include: 
-Customizable user interface, allowing users to change the background color, switch to dark mode, and adjust font size.
-Local storage functionality, allowing user inputs to be stored and retrieved for future visits.
-Regular expressions used to validate the format of the input IP address.
-All the communication templates have a "Copy to Clipboard" button to facilitate easy sharing.
+- Dark Mode
+- Change background colour
+- Adjust font size
+- Copy to clipboard to facilitate easy sharing
+- Reset to original background
+- Reload page
+- Allow user inputs to be stored and accessed for future use
+- RegEx to validate IP address
+- Customizable user interface
 
 ---------------------------------------------------------------------------------------------------------
 ## 🚧Built with
