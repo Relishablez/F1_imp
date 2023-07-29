@@ -8,7 +8,7 @@ MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
 
 ## How to use?
 _To use the application on Local Host or Web:_
-1.Local Host:
+## 1. Local Host:
 - Simply clone the repository (https://github.com/Relishablez/F1_imp/blob/main/F1_v4.3.1_Mo_INPUT_API_KEY.html) and open the HTML file in a browser replacing "API_KEY_HERE" with your API key, obtainable via: https://ipinfo.io/account/token (must make an account first. 50k requests per month, free tier).
 
 **2. Web:** 
