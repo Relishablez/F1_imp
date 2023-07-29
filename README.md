@@ -3,17 +3,22 @@ This is a semi-prolific project for the use of a WAF service (Imperva)
 
 ---------------------------------------------------------------------------------------------------------
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
-- Must whitelist the website: https://relishablez.github.io/F1_imp/
+- Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
 
 ## How to use?
 _To use the application on Local Host or Web:_ 
 
-**1. Local Host:**
-- Simply clone the repository (https://github.com/Relishablez/F1_imp/blob/main/F1_v4.3.1_Mo_INPUT_API_KEY.html) and open the HTML file in a browser replacing "API_KEY_HERE" with your API key, obtainable via: https://ipinfo.io/account/token (must make an account first. 50k requests per month, free tier).
-
-**2. Web:** 
-- https://relishablez.github.io/F1_imp/
+**1. Web:** 
+- Open the link: https://relishablez.github.io/F1_imp/
+- Disable Adblocker/cookie blockers
+  
+**2. Local Host:**
+- Make an account and obtain your own API key from https://ipinfo.io/account/token -> 50k requests per month for free tier.
+- Simply clone/download the repository: https://github.com/Relishablez/F1_imp/blob/main/F1_v4.3.1_Mo_INPUT_API_KEY.html
+- Open the HTML file with notepad++, notepad, Sublime text, Atom or whatever editor.
+- Replace "API_KEY_HERE" with your API key
+- Open the file, and all should be well - remember to turn off Adblock/cookie blocker on the website
 
 ---------------------------------------------------------------------------------------------------------
 ## What is this?
@@ -37,5 +42,5 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 
 ---------------------------------------------------------------------------------------------------------
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
-- can whitelist the website: https://relishablez.github.io/F1_imp/
+- Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
