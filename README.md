@@ -2,7 +2,7 @@
 This is a semi-prolific project for the use of a WAF service (Imperva) harnessing the ipinfo.io API
 
 ---------------------------------------------------------------------------------------------------------
-MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
+❗❗❗MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY❗❗❗
 - Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
 
@@ -41,18 +41,18 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 --->>> Please note: the ipinfo.io API requires a token to function properly. The one included in this is a free tier placeholder and may need to be replaced with your own.
 
 ---------------------------------------------------------------------------------------------------------
-MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
+❗❗❗MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY❗❗❗
 - Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-FAQs:
+❓FAQs:
 ------------------------------------------------------------------------------------------------------------------------------------------
 - When I click "query" nothing happens.
-Disable adblockers, trackers, cookie loggers, cookie blockers and the like on the website/webpage
+<br>Disable adblockers, trackers, cookie loggers, cookie blockers and the like on the website/webpage</br>
 
 - How reliable is Ipinfo.io?
-Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web (more than 1,000,000,000,000 a year and 1,000,000,000 a day). See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.
+<br>Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web (more than 1,000,000,000,000 a year and 1,000,000,000 a day). See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.</br>
 
 - Do you plan on checking more services to cross check IPs such as VPN and Proxy detection?
 <br>Yes. Currently just using Ipinfo.io</br>
