@@ -9,11 +9,11 @@ This is a semi-prolific project for the use of a WAF service (Imperva) harnessin
 ## 🤔❓How to use? 
 _To use the application on Local Host or Web:_ 
 
-**1. Web:** 
+**1. Web:** 🌍
 - Open the link: https://relishablez.github.io/F1_imp/
 - Disable Adblocker/cookie blockers
   
-**2. Local Host:**
+**2. Local Host:** 🏠
 - Make an account and obtain your own API key from https://ipinfo.io/account/token -> 50k requests per month for free tier.
 - Simply clone/download the repository: https://github.com/Relishablez/F1_imp/blob/main/F1_v4.3.1_Mo_INPUT_API_KEY.html
 - Open the HTML file with notepad++, notepad, Sublime text, Atom or whatever editor.
