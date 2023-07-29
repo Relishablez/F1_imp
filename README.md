@@ -52,13 +52,13 @@ FAQs:
 Disable adblockers, trackers, cookie loggers, cookie blockers and the like on the website/webpage
 
 - How reliable is Ipinfo.io?
-Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web. See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.
+Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web (more than 1,000,000,000,000 a year and 1,000,000,000 a day). See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.
 
 - Do you plan on checking more services to cross check IPs such as VPN and Proxy detection?
-Yes. Currently just using Ipinfo.io
+<br>Yes. Currently just using Ipinfo.io</br>
 
 - Are you the goat? 
-Perhaps :D
+<br>Perhaps :D</br>
 
 - Where can I report issues, can I commit?
-Feel free to commit but I request not to be foolish please. If you're here then one way or another you know me, so feel free to reach out that way! 😇
+<br>Feel free to commit but I request not to be foolish please. If you're here then one way or another you know me, so feel free to reach out that way! 😇</br>
