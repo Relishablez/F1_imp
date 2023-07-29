@@ -67,5 +67,5 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 - Are you the goat? 
 <br>Perhaps but truthfully CREDIT to multiple friends for creating and setting up the baseline for me to add on top: </br>
 <br>https://github.com/jkerai1</br>
-Pintu
+<br>Pintu</br>
 Dipak
