@@ -3,6 +3,7 @@ This is a semi-prolific project for the use of a WAF service (Imperva)
 
 ---------------------------------------------------------------------------------------------------------
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
+- can whitelist the website: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
 
 ## How to use?
@@ -34,4 +35,5 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 
 ---------------------------------------------------------------------------------------------------------
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
+- can whitelist the website: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
