@@ -1,5 +1,5 @@
 # F1_imp - PROXY + VPN CHECKING
-This is a semi-prolific project for the use of a WAF service (Imperva)
+This is a semi-prolific project for the use of a WAF service (Imperva) harnessing the ipinfo.io API
 
 ---------------------------------------------------------------------------------------------------------
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
@@ -44,3 +44,21 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 MUST DISABLE ADBLOCKER FOR THIS CLIENT-SIDED WEBSITE TO RUN PROPERLY
 - Must whitelist the website/local file: https://relishablez.github.io/F1_imp/
 ---------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------
+FAQs:
+------------------------------------------------------------------------------------------------------------------------------------------
+- When I click "query" nothing happens.
+Disable adblockers, trackers, cookie loggers, cookie blockers and the like on the website/webpage
+
+- How reliable is Ipinfo.io?
+Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web. See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.
+
+- Do you plan on checking more services to cross check IPs such as VPN and Proxy detection?
+Yes. Currently just using Ipinfo.io
+
+- Are you the goat? 
+Perhaps :D
+
+- Where can I report issues, can I commit?
+Feel free to commit but I request not to be foolish please. If you're here then one way or another you know me, so feel free to reach out that way! 😇
