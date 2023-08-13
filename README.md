@@ -14,9 +14,9 @@ _To use the application on Local Host or Web:_
 - Disable Adblocker/cookie blockers
   
 **2. Local Host:** 🏠
-- Make an account and obtain your own API key from https://ipinfo.io/account/token -> 50k requests per month for free tier.
+- Make an account and obtain your own API key from https://ipinfo.io/account/token -> 50k requests per month for 7 day premium free trial tier.
 - Simply clone/download the repository: https://github.com/Relishablez/F1_imp/blob/main/F1_v4.3.1_Mo_INPUT_API_KEY.html
-- Open the HTML file with notepad++, notepad, Sublime text, Atom or whatever editor.
+- Open the HTML file with notepad++, notepad, Sublime text, Atom, vim, nano or whatever editor.
 - Replace "API_KEY_HERE" with your API key
 - Open the file, and all should be well - remember to turn off Adblock/cookie blocker on the website
 
@@ -56,14 +56,14 @@ The application is built using HTML, CSS, and JavaScript. It's a useful tool for
 <br>Disable adblockers, trackers, cookie loggers, cookie blockers and the like on the website/webpage</br>
 
 - How reliable is Ipinfo.io?
-<br>Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web (more than 1,000,000,000,000 a year and 1,000,000,000 a day). See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.</br>
+<br>Reliable enough to warrant me using it. They also boast a really good database and frequency of crawling the web (more than 1,000,000,000,000 (1Trillion) a year and 1,000,000,000 (1Billion) a day). See more details: https://ipinfo.io/faq/article/47-how-precise-is-ipinfo-data#:~:text=We%20like%20to%20think%20we,depending%20on%20the%20data%20type.</br>
 
 - Do you plan on checking more services to cross check IPs such as VPN and Proxy detection?
 <br>Yes. Currently just using Ipinfo.io</br>
 
 - Where can I report issues, can I commit?
-<br>Feel free to commit but I request not to be foolish please. If you're here then one way or another you know me, so feel free to reach out that way! 😇</br>
+<br>Feel free to commit but I request not to be foolish please. If you're here then one way or another you may know me, so feel free to reach out that way! 😇</br>
 
 - Are you the goat? 
 <br>Perhaps but truthfully CREDIT to multiple friends for creating and setting up the baseline for me to add on top. I recently added the Query-feature: </br>
-https://github.com/jkerai1 | Pintu | Dipak
+https://github.com/jkerai1 | Pi | Di
